@@ -41,7 +41,7 @@
             // button2
             // 
             button2.BackColor = Color.DarkGreen;
-            button2.Font = new Font("TH Sarabun New", 19.7999973F, FontStyle.Bold);
+            button2.Font = new Font("Microsoft Sans Serif", 19.7999973F, FontStyle.Bold);
             button2.ForeColor = Color.Transparent;
             button2.Location = new Point(628, 579);
             button2.Name = "button2";
@@ -54,7 +54,7 @@
             // button1
             // 
             button1.BackColor = Color.DarkGreen;
-            button1.Font = new Font("TH Sarabun New", 19.7999973F, FontStyle.Bold);
+            button1.Font = new Font("Microsoft Sans Serif", 19.7999973F, FontStyle.Bold);
             button1.ForeColor = Color.Transparent;
             button1.Location = new Point(628, 405);
             button1.Name = "button1";
@@ -67,11 +67,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label3.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label3.ForeColor = Color.Transparent;
             label3.Location = new Point(879, 303);
             label3.Name = "label3";
-            label3.Size = new Size(137, 57);
+            label3.Size = new Size(174, 51);
             label3.TabIndex = 14;
             label3.Text = "เมนูหลัก ";
             // 
@@ -85,29 +85,29 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label2.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label2.ForeColor = Color.Gold;
             label2.Location = new Point(607, 205);
             label2.Name = "label2";
-            label2.Size = new Size(635, 57);
+            label2.Size = new Size(856, 51);
             label2.TabIndex = 12;
             label2.Text = "ตำบลหนองยายโต๊ะ อำเภอชัยบาดาล จังหวัดลพบุรี ";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label1.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label1.ForeColor = Color.Gold;
             label1.Location = new Point(571, 148);
             label1.Name = "label1";
-            label1.Size = new Size(727, 57);
+            label1.Size = new Size(991, 51);
             label1.TabIndex = 11;
             label1.Text = "ระบบบริหารจัดการกลุ่มออมทรัพย์เพื่อการผลิตบ้านท่ารวก ";
             // 
             // button3
             // 
             button3.BackColor = Color.DarkGreen;
-            button3.Font = new Font("TH Sarabun New", 23.9999981F, FontStyle.Bold);
+            button3.Font = new Font("Microsoft Sans Serif", 23.9999981F, FontStyle.Bold);
             button3.ForeColor = Color.Transparent;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.Location = new Point(1805, 947);
@@ -131,7 +131,6 @@
             Controls.Add(label2);
             Controls.Add(label1);
             ForeColor = Color.Transparent;
-            FormBorderStyle = FormBorderStyle.None;
             Name = "MainRegister";
             Text = "MainRegister";
             Load += MainRegister_Load;

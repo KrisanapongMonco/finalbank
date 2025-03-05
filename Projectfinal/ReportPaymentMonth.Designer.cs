@@ -43,22 +43,22 @@
             // 
             // comboBox2
             // 
-            comboBox2.Font = new Font("TH Sarabun New", 17.9999981F, FontStyle.Bold);
+            comboBox2.Font = new Font("Microsoft Sans Serif", 17.9999981F, FontStyle.Bold);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "ประธานกองทุน ", "เหรัญญิก ", "กรรมการ" });
             comboBox2.Location = new Point(707, 268);
             comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(558, 48);
+            comboBox2.Size = new Size(558, 44);
             comboBox2.TabIndex = 140;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("TH Sarabun New", 22.1999989F, FontStyle.Bold);
+            label4.Font = new Font("Microsoft Sans Serif", 22.1999989F, FontStyle.Bold);
             label4.ForeColor = Color.Transparent;
             label4.Location = new Point(569, 268);
             label4.Name = "label4";
-            label4.Size = new Size(132, 49);
+            label4.Size = new Size(168, 42);
             label4.TabIndex = 139;
             label4.Text = "เลือกเดือน";
             // 
@@ -74,11 +74,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label3.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label3.ForeColor = Color.Transparent;
             label3.Location = new Point(704, 191);
             label3.Name = "label3";
-            label3.Size = new Size(417, 57);
+            label3.Size = new Size(562, 51);
             label3.TabIndex = 137;
             label3.Text = "รายงานการชำระเงินประจำเดือน";
             // 
@@ -92,29 +92,29 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label2.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label2.ForeColor = Color.Gold;
             label2.Location = new Point(582, 134);
             label2.Name = "label2";
-            label2.Size = new Size(635, 57);
+            label2.Size = new Size(856, 51);
             label2.TabIndex = 135;
             label2.Text = "ตำบลหนองยายโต๊ะ อำเภอชัยบาดาล จังหวัดลพบุรี ";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label1.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label1.ForeColor = Color.Gold;
             label1.Location = new Point(546, 77);
             label1.Name = "label1";
-            label1.Size = new Size(727, 57);
+            label1.Size = new Size(991, 51);
             label1.TabIndex = 134;
             label1.Text = "ระบบบริหารจัดการกลุ่มออมทรัพย์เพื่อการผลิตบ้านท่ารวก ";
             // 
             // button2
             // 
             button2.BackColor = Color.DarkGreen;
-            button2.Font = new Font("TH Sarabun New", 23.9999981F, FontStyle.Bold);
+            button2.Font = new Font("Microsoft Sans Serif", 23.9999981F, FontStyle.Bold);
             button2.ForeColor = Color.Transparent;
             button2.Location = new Point(819, 780);
             button2.Name = "button2";
@@ -126,7 +126,7 @@
             // button3
             // 
             button3.BackColor = Color.DarkGreen;
-            button3.Font = new Font("TH Sarabun New", 23.9999981F, FontStyle.Bold);
+            button3.Font = new Font("Microsoft Sans Serif", 23.9999981F, FontStyle.Bold);
             button3.ForeColor = Color.Transparent;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.Location = new Point(1737, 824);
@@ -151,7 +151,6 @@
             Controls.Add(dateTimePicker1);
             Controls.Add(label2);
             Controls.Add(label1);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "ReportPaymentMonth";
             Text = "ReportPaymentMonth";
             Load += ReportPaymentMonth_Load;

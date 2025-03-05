@@ -44,7 +44,7 @@
             // button1
             // 
             button1.BackColor = Color.DarkGreen;
-            button1.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button1.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button1.ForeColor = Color.Transparent;
             button1.Location = new Point(612, 343);
             button1.Name = "button1";
@@ -57,11 +57,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label3.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label3.ForeColor = Color.Transparent;
             label3.Location = new Point(847, 252);
             label3.Name = "label3";
-            label3.Size = new Size(164, 57);
+            label3.Size = new Size(214, 51);
             label3.TabIndex = 14;
             label3.Text = "หน้าสมาชิก";
             // 
@@ -75,29 +75,29 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label2.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label2.ForeColor = Color.Gold;
             label2.Location = new Point(591, 168);
             label2.Name = "label2";
-            label2.Size = new Size(635, 57);
+            label2.Size = new Size(856, 51);
             label2.TabIndex = 12;
             label2.Text = "ตำบลหนองยายโต๊ะ อำเภอชัยบาดาล จังหวัดลพบุรี ";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label1.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label1.ForeColor = Color.Gold;
             label1.Location = new Point(555, 111);
             label1.Name = "label1";
-            label1.Size = new Size(727, 57);
+            label1.Size = new Size(991, 51);
             label1.TabIndex = 11;
             label1.Text = "ระบบบริหารจัดการกลุ่มออมทรัพย์เพื่อการผลิตบ้านท่ารวก ";
             // 
             // button2
             // 
             button2.BackColor = Color.DarkGreen;
-            button2.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button2.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button2.ForeColor = Color.Transparent;
             button2.Location = new Point(612, 445);
             button2.Name = "button2";
@@ -110,7 +110,7 @@
             // button3
             // 
             button3.BackColor = Color.DarkGreen;
-            button3.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button3.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button3.ForeColor = Color.Transparent;
             button3.Location = new Point(612, 671);
             button3.Name = "button3";
@@ -123,7 +123,7 @@
             // button4
             // 
             button4.BackColor = Color.DarkGreen;
-            button4.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button4.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button4.ForeColor = Color.Transparent;
             button4.Location = new Point(612, 557);
             button4.Name = "button4";
@@ -136,7 +136,7 @@
             // button5
             // 
             button5.BackColor = Color.DarkGreen;
-            button5.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button5.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button5.ForeColor = Color.Transparent;
             button5.Location = new Point(614, 797);
             button5.Name = "button5";
@@ -149,7 +149,7 @@
             // button6
             // 
             button6.BackColor = Color.DarkGreen;
-            button6.Font = new Font("TH Sarabun New", 23.9999981F, FontStyle.Bold);
+            button6.Font = new Font("Microsoft Sans Serif", 23.9999981F, FontStyle.Bold);
             button6.ForeColor = Color.Transparent;
             button6.Image = (Image)resources.GetObject("button6.Image");
             button6.Location = new Point(1811, 958);
@@ -175,7 +175,6 @@
             Controls.Add(dateTimePicker1);
             Controls.Add(label2);
             Controls.Add(label1);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "MainUser";
             Text = "MainUser";
             Load += MainUser_Load;

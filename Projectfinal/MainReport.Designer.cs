@@ -42,7 +42,7 @@
             // button4
             // 
             button4.BackColor = Color.DarkGreen;
-            button4.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button4.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button4.ForeColor = Color.Transparent;
             button4.Location = new Point(568, 565);
             button4.Name = "button4";
@@ -55,7 +55,7 @@
             // button2
             // 
             button2.BackColor = Color.DarkGreen;
-            button2.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button2.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button2.ForeColor = Color.Transparent;
             button2.Location = new Point(568, 453);
             button2.Name = "button2";
@@ -68,7 +68,7 @@
             // button1
             // 
             button1.BackColor = Color.DarkGreen;
-            button1.Font = new Font("TH Sarabun New", 16.1999989F, FontStyle.Bold);
+            button1.Font = new Font("Microsoft Sans Serif", 16.1999989F, FontStyle.Bold);
             button1.ForeColor = Color.Transparent;
             button1.Location = new Point(568, 351);
             button1.Name = "button1";
@@ -81,11 +81,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label3.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label3.ForeColor = Color.Transparent;
             label3.Location = new Point(589, 251);
             label3.Name = "label3";
-            label3.Size = new Size(633, 57);
+            label3.Size = new Size(859, 51);
             label3.TabIndex = 22;
             label3.Text = " ข้อมูลเกี่ยวกับเจ้าหน้าที่กองทุน : การปันผลสมาชิก";
             // 
@@ -99,29 +99,29 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label2.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label2.ForeColor = Color.Gold;
             label2.Location = new Point(568, 161);
             label2.Name = "label2";
-            label2.Size = new Size(635, 57);
+            label2.Size = new Size(856, 51);
             label2.TabIndex = 20;
             label2.Text = "ตำบลหนองยายโต๊ะ อำเภอชัยบาดาล จังหวัดลพบุรี ";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("TH Sarabun New", 25.8F, FontStyle.Bold);
+            label1.Font = new Font("Microsoft Sans Serif", 25.8F, FontStyle.Bold);
             label1.ForeColor = Color.Gold;
             label1.Location = new Point(532, 104);
             label1.Name = "label1";
-            label1.Size = new Size(727, 57);
+            label1.Size = new Size(991, 51);
             label1.TabIndex = 19;
             label1.Text = "ระบบบริหารจัดการกลุ่มออมทรัพย์เพื่อการผลิตบ้านท่ารวก ";
             // 
             // button3
             // 
             button3.BackColor = Color.DarkGreen;
-            button3.Font = new Font("TH Sarabun New", 23.9999981F, FontStyle.Bold);
+            button3.Font = new Font("Microsoft Sans Serif", 23.9999981F, FontStyle.Bold);
             button3.ForeColor = Color.Transparent;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.Location = new Point(1796, 891);
@@ -145,7 +145,6 @@
             Controls.Add(dateTimePicker1);
             Controls.Add(label2);
             Controls.Add(label1);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "MainReport";
             Text = "MainReport";
             Load += MainReport_Load;
